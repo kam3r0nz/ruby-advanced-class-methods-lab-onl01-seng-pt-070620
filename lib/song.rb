@@ -31,7 +31,8 @@ class Song
   end
   
   def self.find_by_name(song_name)
-    if song_name = @name
-  end
+    if @@all.include?(song_name)
+      self
+    end
   end
 end

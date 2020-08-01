@@ -29,4 +29,9 @@ class Song
     song.save
     song
   end
+  
+  def self.find_by_name(song_name)
+    if song_name = @name
+  end
+  end
 end

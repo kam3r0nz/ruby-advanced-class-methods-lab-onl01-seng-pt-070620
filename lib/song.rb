@@ -18,6 +18,6 @@ class Song
   end
   
   def self.create
-    
+    self
   end
 end
